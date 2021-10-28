@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Applications</title>
+
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\applications.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a1a89f55a7.js"></script>
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Rotation Tool</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="apply.html">Apply</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="applications.html">Applications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <div class="container-fluid top-space">
+    <h1 style="color: white;">Applications</h1>
+    <hr style="border-color: darkgrey">
+    <br>
+    <div class="card">
+  <div class="card-body">
+<div class="row">
+  <div class="col-lg-2">
+
+<div class="alert alert-success" role="alert">
+  Under Consideration
+</div>
+<br>
+<div class="dropdown">
+  <select class="form-control dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<option class="dropdown-item" value="volvo">Please Rank</option>
+<option class="dropdown-item" value="saab">1</option>
+<option class="dropdown-item" value="mercedes">2</option>
+<option class="dropdown-item" value="audi">3</option>
+</select>
+
+</div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card" style="height:100%">
+      <div class="card-body">
+        <h5 class="card-title">Supervisor</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Washington DC</h6>
+        <p class="card-text">Job description of the position and grade. Contact information as well.</p>
+        <a href="#" class="card-link">Email POC</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card text-center">
+      <div class="card-header">
+        Why am I the best fit?
+      </div>
+      <div class="card-body">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <a href="#" class="btn btn-primary">Save</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-2 text-center">
+<button type="button" class="btn btn-danger btn-lg">Remove</button>
+    </div>
+
+  </div>
+</div>
+  </div>
+  <div class="card">
+<div class="card-body">
+<div class="row">
+<div class="col-lg-2">
+<div class="alert alert-danger" role="alert">
+Not Under Consideration
+</div>
+<br>
+<div class="dropdown">
+  <select class="form-control dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<option class="dropdown-item" value="volvo">Please Rank</option>
+<option class="dropdown-item" value="saab">1</option>
+<option class="dropdown-item" value="mercedes">2</option>
+<option class="dropdown-item" value="audi">3</option>
+</select>
+
+</div>
+</div>
+<div class="col-lg-4">
+  <div class="card" style="height:100%">
+    <div class="card-body">
+      <h5 class="card-title">Project Manager</h5>
+      <h6 class="card-subtitle mb-2 text-muted">North Carolina</h6>
+      <p class="card-text">Job description of the position and grade. Contact information as well.</p>
+      <a href="#" class="card-link">Email POC</a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4">
+  <div class="card text-center">
+    <div class="card-header">
+      Why am I the best fit?
+    </div>
+    <div class="card-body">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <a href="#" class="btn btn-primary">Save</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-2 text-center">
+<button type="button" class="btn btn-danger btn-lg">Remove</button>
+  </div>
+
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<div class="row">
+<div class="col-lg-2">
+<div class="alert alert-warning" role="alert">
+Status Not Available
+</div>
+<br>
+<div class="dropdown">
+  <select class="form-control dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<option class="dropdown-item" value="volvo">Please Rank</option>
+<option class="dropdown-item" value="saab">1</option>
+<option class="dropdown-item" value="mercedes">2</option>
+<option class="dropdown-item" value="audi">3</option>
+</select>
+
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card" style="height:100%;">
+  <div class="card-body">
+    <h5 class="card-title">Software Developer</h5>
+    <h6 class="card-subtitle mb-2 text-muted">New York</h6>
+    <p class="card-text">Job description of the position and grade. Contact information as well.</p>
+    <a href="#" class="card-link">Email POC</a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="card text-center">
+  <div class="card-header">
+    Why am I the best fit?
+  </div>
+  <div class="card-body">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <a href="#" class="btn btn-primary">Save</a>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-2 text-center">
+<button type="button" class="btn btn-danger btn-lg">Remove</button>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+</body>
+
+</html>

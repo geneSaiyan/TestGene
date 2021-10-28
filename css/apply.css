@@ -1,0 +1,52 @@
+body {
+  background-color: #485461;
+  background-color: linear-gradient(315deg, #485461 0%, #28313b 100%);
+  font-family: "Montserrat";
+}
+
+.top-space{
+  margin-top: 2%;
+}
+
+.job-card-space {
+  margin-bottom:0.3%;
+}
+/*search box css start here*/
+.search-sec{
+    background: lightgrey;padding: 2rem;
+    margin-bottom: 0.5%;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+     height: calc(3rem + 2px) !important;
+     border-radius:0;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}

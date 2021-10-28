@@ -1,0 +1,20 @@
+body {
+  background-color: #485461;
+  background-color: linear-gradient(315deg, #485461 0%, #28313b 100%);
+  font-family: "Montserrat";
+}
+
+.top-space {
+  margin-top: 2%;
+}
+
+.active-side {
+  background-color: green;
+  border: green;
+  color: white;
+}
+
+.active-side:hover {
+  background-color: darkgreen;
+  color: white;
+}
